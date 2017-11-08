@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <!--让ie按照最新版本进行渲染-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--移动设备优先 视窗                  宽度=设备宽度      缩放比例1倍      最大缩放比例1倍   禁止用户缩放-->
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+    <!--bootstrap核心css文件-->
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/market.css"/>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+<header class="navbar container-fluid head">
+    <div class="container">
+        <div class="navbar-header logo">
+            <a href="../index.html">金数据</a>
+        </div>
+        <ul class="navbar-nav nav hidden-xs">
+            <li>
+            	<a href="#" data-toggle="dropdown">解决方案</a>
+            	<ul class="dropdown-menu">
+	              <li><a href="../program/01.html">文化/广告/传媒</a></li>
+	              <li><a href="../program/02.html">教育培训</a></li>
+	              <li><a href="../program/03.html">电商</a></li>
+	              <li><a href="../program/04.html">大公司</a></li>
+	              <li><a href="../program/05.html">初创团队</a></li>
+	              <li><a href="../program/06.html">小金爱公益</a></li>
+	            </ul>
+            </li>
+            <li><a href="../special/special.html">产品特性</a></li>
+            <li><a href="../price/price.html">价格详情</a></li>
+            <li><a href="market.html">应用市场</a></li>
+            <li><a href="../center/center.html">模板中心</a></li>
+        </ul>
+        <div class="pull-right btn-right">
+            <a class="btn navbar-btn">登录</a>
+            <a class="btn navbar-btn">注册</a>
+            <a class="btn navbar-btn pull-right visible-xs" id="menu">三</a>
+        </div>
+        <div class="bg"></div>
+        <ul class="clicks">
+		    <li>
+		    	<a href="#" id="menu_btn">解决方案</a>
+		    	<ul class="list-unstyled">
+		          <li><a href="../program/01.html">文化/广告/传媒</a></li>
+		          <li><a href="../program/02.html">教育培训</a></li>
+		          <li><a href="../program/03.html">电商</a></li>
+		          <li><a href="../program/04.html">大公司</a></li>
+		          <li><a href="../program/05.html">初创团队</a></li>
+		          <li><a href="../program/06.html">小金爱公益</a></li>
+		        </ul>
+		    </li>
+		    <li><a href="../special/special.html">产品特性</a></li>
+		    <li><a href="../price/price.html">价格详情</a></li>
+		    <li><a href="market.html">应用市场</a></li>
+		    <li><a href="../center/center.html">模板中心</a></li>
+		</ul>
+    </div>
+</header>
+<div class="container-fluid jum-wrap">
+	<div class="container">
+		<div class="jumbotron">
+			<h2 class="text-center">简单、灵巧、好用</h2>
+			<p class="text-center">发现数据衍生价值，让应用成为工作中的小利器</p>
+			<ul class="clearfix list-unstyled">
+				<li class="col-md-4 col-xs-6">
+					<div>
+					<img src="images/print-95341b3fcabef2c18bd0e377108f61133d5821ddeb67855f5bd249d1ba10bc40.png"  class="center-block" />
+					<h3 class="text-center">自定义打印</h3>
+					<p class="text-center">自定义打印可实现将表单收集的数据导出到任何一个Word文档中。</p>
+					</div>
+				</li>
+				<li class="col-md-4 col-xs-6">
+					<div>
+					<img src="images/wheel-77e7fbc3c784b226aec81ec153130adf5c214f81d348bdc35973802df6db1036.png"  class="center-block" />
+					<h3 class="text-center">幸运大转盘</h3>
+					<p class="text-center">幸运大转盘可以为你的表单添加抽奖，用户提交表单即可直接参与抽奖。</p>
+					</div>
+				</li>
+				<li class="col-md-4 col-xs-6 col-xs-push-3 col-md-push-0">
+					<div>
+					<img src="images/verification-24519fcb215d1d1f9298b2f9adf3ffa4b7be59ac989c135651f7a40d63a67523.png"  class="center-block" />
+					<h3 class="text-center">核销码</h3>
+					<p class="text-center">使用核销码应用可在填写表单后生成唯一的二维码凭证。</p>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+<div class="main">
+	<div class="container-fluid nav-wrap">
+		<div class="container clearfix">
+			<a href="#one" class="col-sm-2">在线考试</a>
+			<a href="#two" class="col-sm-2">签到</a>
+			<a href="#three" class="col-sm-2">自定义打印</a>
+			<a href="#four" class="col-sm-2">核销码</a>
+			<a href="#five" class="col-sm-2">幸运大转盘</a>
+			<a href="#six" class="col-sm-2">更多应用</a>
+		</div>			
+	</div>
+	<div class="main-one container-fluid" id="one">
+		<div class="container">
+			<div class="col-sm-5">
+				<h3>在线考试<span><a href="#">查看详情></a></span></h3>
+				<p>在线考试可以为你的表单增加评分系统，提交表单自动出分，还可查看答案解析，办一场考试就是这么简单。
+				<br /><br />适用于：员工能力考核、培训机构教学、认证考试练习</p>
+				<ul class="list-unstyled">
+					<li>随机出题：随机出题，每人可拿到不同题目</li>
+					<li>限时答题：限时答题，到时自动交卷。</li>
+					<li>答案解析：知其然更知其所以然。</li>
+					<li>自动阅卷：自动阅卷，提交即出分。</li>
+					<li>数据导出：支持考试结果导出。</li>
+				</ul>
+			</div>
+			<div class="col-sm-7">
+				<img src="images/preview-exam-badfbe32227f40978fbdbaa180890f2fd08894d5673f2dfa45480befee16e737.png" class="img-responsive" />
+			</div>
+		</div>
+	</div>
+	<div class="main-two container-fluid" id="two">
+		<div class="container">
+			<div class="col-sm-5">
+				<h3>签到<span><a href="#">查看详情></a></span></h3>
+				<p>签到应用可以为您的报名表单加入签到功能，无需准备纸质签到本，在会场扫描二维码就能完成自助签到。 
+				<br /><br />适用于：会议签到、培训签到、活动签到</p>
+				<ul class="list-unstyled">
+					<li>防止代签：每台手机限签一次</li>
+					<li>定位地点：到达指定地理位置方可签到</li>
+					<li>实时更新：签到结果自动刷新，及时了解进度</li>
+					<li>数据导出：签到名单可自由导出</li>
+				</ul>
+			</div>
+			<div class="col-sm-7">
+				<img src="images/preview-sign-in-04a4556ab8cfe60579f06c4a9a996a3984725f8bda7dc1a2d4f24aeed45d0637.png" class="img-responsive" />
+			</div>
+		</div>
+	</div>
+	<div class="main-three container-fluid" id="three">
+		<div class="container">
+			<div class="col-sm-5">
+				<h3>自定义打印<span><a href="#">查看详情></a></span></h3>
+				<p>自定义打印可实现将表单收集的数据导出到任何一个Word文档中。
+				<br /><br />适用于所有需要将数据填入特定格式的Word文件存档或打印的场景，如员工入职登记表、报销单、出差申请表、第三方检测报告、居民户籍信息表等。</p>
+			</div>
+			<div class="col-sm-7">
+				<img src="images/preview-print-f9347d6728a628aed646a4e9f7d11a489a1a13dacb3cb92f4488b7c07052cb30.png" class="img-responsive" />
+			</div>
+		</div>
+	</div>
+	<div class="main-four container-fluid" id="four">
+		<div class="container">
+			<div class="col-sm-5">
+				<h3>核销码<span><a href="#">查看详情></a></span></h3>
+				<p>使用核销码应用可在填写表单后生成唯一的二维码凭证，通过微信扫码即可一秒核销，轻松解决票务难题。 
+				<br /><br />适用于：活动报名、服务预约、商品预售、优惠兑换</p>
+				<ul class="list-unstyled">
+					<li>安全可靠：唯一的数字码+二维码</li>
+					<li>状态同步：核销状态实时同步后台，一目了然</li>
+					<li>快速核销：微信扫码一秒核销，快速验票</li>
+					<li>量身定制：凭证文案自定义，更贴合实际业务</li>
+					<li>多人协作：支持多人同时核销，便捷高效</li>
+				</ul>
+			</div>
+			<div class="col-sm-7">
+				<img src="images/preview-verification-3820b1f26243ff71e7a0d1216c601e35be9e0289aea77c7188088d796facdf35.png" class="img-responsive" />
+			</div>
+		</div>
+	</div>
+	<div class="main-five container-fluid" id="five">
+		<div class="container">
+			<div class="col-sm-5">
+				<h3>幸运大转盘<span><a href="#">查看详情></a></span></h3>
+				<p>幸运大转盘可为你的表单添加抽奖功能，提交表单即可直接参与抽奖，你的问卷调研从此更有趣。
+				<br /><br />适用于：问卷调研、粉丝互动、用户回馈、新媒体运营</p>
+				<ul class="list-unstyled">
+					<li>精准设置：每个奖项可设置中奖概率</li>
+					<li>可控奖池：随时调整奖品种类及数量</li>
+					<li>更具公信：实时展示中奖名单</li>
+					<li>短信通知: 线下兑奖有凭有据</li>
+				</ul>
+			</div>
+			<div class="col-sm-7">
+				<img src="images/preview-wheel-0c6dad3ba2dd5fe2d2f46f68db142a22597a821d78fb7bb7add37f30053ffd76.png" class="img-responsive" />
+			</div>
+		</div>
+	</div>
+	<div class="main-six container-fluid" id="six">
+		<div class="container">
+			<h2 class="text-center">更多应用</h2>
+			<div class="col-xs-6">
+				<div class="col-sm-8 col-sm-push-2 col-xs-12 col-xs-push-0 none">
+					<img src="images/lottery-3bbc30f2775c655b17a5923e8fc23069c1721d7103562b365c2d0b26d4a2a50d.png"  class="img-responsive center-block" />
+					<h4 class="text-center">现场抽奖</h4>
+					<p class="text-center">简单好用的现场互动利器，可对已收集的人员名单进行滚动抽奖</p>
+					<a href="#">查看详情></a>
+				</div>
+			</div>
+			<div class="col-xs-6">
+				<div class="col-sm-8 col-sm-push-2 col-xs-12 col-xs-push-0 none">
+					<img src="images/fruit-machine-3798af35e9dbf2209d482030190f3e2a04d964edcc56e20ecc2c5d75d0b236af.png"  class="img-responsive center-block" />
+					<h4 class="text-center">欢乐水果机</h4>
+					<p class="text-center">为你的表单添加抽奖活动，提交表单之后即可参与抽奖</p>
+					<a href="#">查看详情></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="main-seven container-fluid">
+		<div class="container">
+			<p>发现数据衍生的价值，让应用成为你工作中的小利器</p>
+			<a href="#" class="center-block">了解应用详情</a>
+		</div>
+	</div>
+</div>
+<footer class="container-fluid">
+	<div class="container footer-one">
+		<div class="col-md-6 clearfix">
+			<div class="col-xs-4">
+				<dl>
+					<dt>产品</dt>
+					<dd><a href="#">功能介绍</a></dd>
+					<dd><a href="#">最近更新</a></dd>
+					<dd><a href="#">开放平台</a></dd>
+				</dl>
+			</div>				
+			<div class="col-xs-4">
+				<dl>
+					<dt>产品</dt>
+					<dd><a href="#">帮助中心</a></dd>
+					<dd><a href="#">产品博客</a></dd>
+					<dd><a href="#">模板中心</a></dd>
+					<dd><a href="#">使用手册</a></dd>
+				</dl>
+			</div>				
+			<div class="col-xs-4">
+				<dl>
+					<dt>产品</dt>
+					<dd><a href="#">关于我们</a></dd>
+					<dd><a href="#">合作伙伴</a></dd>
+					<dd><a href="#">广义计划</a></dd>
+					<dd><a href="#">使用条款</a></dd>
+					<dd><a href="#">隐私保护</a></dd>
+				</dl>
+			</div>				
+		</div>
+		<div class="col-md-6">
+			<h4>金数据</h4>
+			<p>金数据是人人可用的在线表单工具，帮助用户收集和管理日常工作中的数据，提升工作效率。任何行业和岗位的人员，无需特殊技能，都可以方便的创建出符合业务需求的表单。</p>
+		</div>
+	</div>
+	<div class="container-fluid footer-two">
+		<div class="container clearfix">
+			<img src="images/wechat-qrcode-b99a1ea2cb6c43ac6ab7df6efad047b45b4340276f0c824cf661cb26586714e8.jpg"  class="center-block visible-xs" />
+			<p class="col-md-7 col-xs-12 text-center"><span class="hidden-xs hidden-sm">@金数据 2012~2017 | </span>京ICP备15055499号-1 | 京公网安备11010802022633号</p>
+			<div class="col-md-3 col-md-push-2 col-xs-12 text-center">
+				<a href="#">关注微博</a>
+				<a href="#" class="hidden-xs hidden-sm">微信公众号</a>
+			</div>
+		</div>
+	</div>		
+</footer>
+<script src="../js/jquery-1.11.3.js"></script>
+<script src="../js/bootstrap.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#menu").click(function(){
+			$(".clicks").animate({right:'0px'});
+			$(".bg").show();
+		})
+		$(".bg").click(function(){
+			$(".clicks").animate({right:'-200px'});
+			$(".bg").hide();
+		})
+		$('#menu_btn').click(function(){
+			$(this).siblings('ul').slideToggle();
+		})
+		window.onscroll=function(){
+						//兼容IE，火狐						safari				w3c标准
+			var top=document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop;
+			if(top>561){
+				$('.nav-wrap').addClass('fix')
+			}else{
+				$('.nav-wrap').removeClass('fix')
+			}
+		}
+	});	
+</script>
+</body>
+</html>

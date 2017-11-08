@@ -1,0 +1,268 @@
+.head{
+	font-size: 16px;
+	margin-bottom: 0;
+	border: none;
+	background: #373C44;
+}
+.head .logo{
+	display: inline-block;
+	height: 48px;
+	line-height: 48px;
+	margin-right: 35px;
+	width: 84px;
+}
+.head .logo a{
+	display:block;
+	padding-left: 36px;
+	color: #FF8533;
+	background: url(../images/logo.gif) no-repeat left center;
+}
+.head .nav li a{
+	width:100px;
+	box-sizing: border-box;
+	padding: 0;
+	padding-left: 13px;
+	height: 48px;
+	line-height: 48px;
+	color: #AAB2A2;
+}
+.head .nav>li:nth-of-type(1){
+	background: url(../images/ss.gif) no-repeat 80px center;
+}
+.head .nav>li:nth-of-type(1) a{
+	background: none;
+}
+.head .clicks li a:hover,.head .clicks li a:active{
+	color: #FF8533;
+}
+.head .nav li ul li a{
+	height: 40px;
+	line-height: 40px;
+	color: #222222;
+}
+.head .nav li a:hover,.head .nav li a:active{
+	background: none !important;
+	color: #ffffff;
+}
+.head .nav>li:nth-of-type(5) a{
+	color: #ffffff;
+}
+.head .btn-right a{
+	margin-left: 15px;
+	font-size: 14px;
+}
+.head .btn-right a:nth-of-type(1){
+	background: none;
+	border: none;
+	width: 28px;
+	padding: 0;
+	color: #AAB2A2;
+}
+.head .btn-right a:nth-of-type(2){
+	border: 1px solid #FFffff;
+	color: #FFffff;
+	padding: 0 28px;
+	height: 28px;
+	line-height: 28px;
+}
+.head .btn-right a:nth-of-type(3){
+	margin-left: 5px;
+	border: 1px solid #FFffff;
+	font-weight: bold;
+	color: #FFffff;
+	padding: 0;
+	height: 28px;
+	line-height: 28px;
+	width: 30px;
+}
+.head .btn-right a:nth-of-type(1):hover{
+	color: #FF8533;
+}
+.head .btn-right a:nth-of-type(2):hover{
+	color: #000000;
+	background: #FFffff;
+}
+.head .btn-right a:nth-of-type(3):hover{
+	background: #ffffff;
+	color: #000000;
+}
+.head .bg{
+	background: rgba(0,0,0,0.5);
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: none;
+	z-index: 10;
+}
+.head .clicks{
+	position: fixed;
+	width: 200px;
+	background: #ffffff;
+	height: 100%;
+	top: 0;
+	right: -200px;
+	list-style: none;
+	padding-left: 0;
+	padding-top: 8px;
+	z-index: 1000;
+}
+.head .clicks>li{
+	width: 200px;
+	line-height: 46px;
+}
+.head .clicks>li:nth-of-type(1) a{
+	background: url(../images/cc.gif) no-repeat 82px center;
+}
+.head .clicks li a{
+	padding: 0 25px;
+	display: block;
+	font-size: 14px;
+	color: #222222;
+	border-bottom: 1px solid #cccccc;
+}
+.head .clicks li ul{
+	display: none;
+	padding-left: 10px;
+}
+.head .clicks li ul li a{
+	line-height: 40px;
+	font-size: 14px;
+	border: none;
+	background: none !important;
+}
+.small .nav>li{
+	width: 70px;
+	margin-right: 13px;
+	position: relative;
+}
+.small li .hides{
+	position: absolute;
+	top: 40px;
+	left: 0;
+	padding: 0;
+	width: 140px;
+	background: #ffffff;
+	display: none;
+	padding-top: 10px;
+	z-index: 1000;
+}
+.small li ul li{
+	height: 30px;
+	line-height: 30px;
+}
+.small .hides li a{
+	display: block;
+	padding-left: 10px;
+	color: #222222;
+	font-size: 14px;
+}
+.small .nav>li>a{
+	width: 70px;
+	padding: 0 15px;
+	font-size: 14px;
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	color: #222222;
+	background: url(../images/cc.gif) no-repeat right 15px center;
+}
+.small .nav>li:nth-of-type(1)>a{
+	background: none;
+}
+.small .nav>li:nth-of-type(1)>a:hover{
+	background: none;
+}
+.small .nav>li>a:hover{
+	background: url(../images/cc.gif) no-repeat right 15px center,#ffffff;
+	color: #007BCC;
+}
+.small .nav>li:hover .hides{
+	display: block;
+}
+.small .input-group{
+	height: 40px;
+	line-height: 40px;
+}
+.small .input-group input{
+	margin-top: 7px;
+	height: 26px;
+	border-radius: 10px !important;
+}
+.main{
+	background: #F1F1F1;
+}
+.main .bread{
+	margin: 20px 0;
+	background: none;
+	padding: 0;
+}
+.main .bread > li + li:before{
+	display: none;
+}
+.main .bread li:nth-of-type(1) a{
+	padding-left: 0;
+}
+.main .bread li:last-of-type a{
+	border: none;
+}
+.main .bread a{
+	color: #222222;
+	display: inline-block;
+	height: 14px;
+	padding: 0 4px;
+	line-height: 14px;
+	font-size: 12px;
+	border-radius: 0;
+	border-right: 1px solid #222222;
+}
+.main .bread li.active>a{
+	background: none;
+	color: #007BCC;
+}
+.main .content>div{
+	padding: 0 10px 10px 0px;
+}
+.main .content{
+	margin-bottom: 10px;
+}
+.main .content .wrap{
+	background: #ffffff;
+	padding: 7px;
+	padding-bottom: 0;
+}
+.main .content .wrap p{
+	margin-bottom: 0;
+	line-height: 30px;
+	font-size: 12px;
+}
+.main .content .more{
+	color: #4BBDF7;
+	margin-bottom: 20px;
+}
+.main .wrap-aside{
+	padding: 0;
+}
+.main .aside{
+	background: #ffffff;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+.main .aside a{
+	font-size: 12px;
+	color: #222222;
+	padding: 0 10px 0 20px;
+	display: block;
+	overflow: hidden;
+	line-height: 30px;
+	height: 30px;
+}
+.main .aside h4{
+	height: 36px;
+	padding: 0 12px;
+	line-height: 36px;
+	font-size: 14px;
+	color: #222222;
+	border-bottom: 1px solid #ccc;
+}

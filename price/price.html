@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <!--让ie按照最新版本进行渲染-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--移动设备优先 视窗                  宽度=设备宽度      缩放比例1倍      最大缩放比例1倍   禁止用户缩放-->
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+    <!--bootstrap核心css文件-->
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/price.css"/>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+<header class="navbar container-fluid head">
+    <div class="container">
+        <div class="navbar-header logo">
+            <a href="../index.html">金数据</a>
+        </div>
+        <ul class="navbar-nav nav hidden-xs">
+            <li>
+            	<a href="#" data-toggle="dropdown">解决方案</a>
+            	<ul class="dropdown-menu">
+	              <li><a href="../program/01.html">文化/广告/传媒</a></li>
+	              <li><a href="../program/02.html">教育培训</a></li>
+	              <li><a href="../program/03.html">电商</a></li>
+	              <li><a href="../program/04.html">大公司</a></li>
+	              <li><a href="../program/05.html">初创团队</a></li>
+	              <li><a href="../program/06.html">小金爱公益</a></li>
+	            </ul>
+            </li>
+            <li><a href="../special/special.html">产品特性</a></li>
+            <li><a href="price.html">价格详情</a></li>
+            <li><a href="../market/market.html">应用市场</a></li>
+            <li><a href="../center/center.html">模板中心</a></li>
+        </ul>
+        <div class="pull-right btn-right">
+            <a class="btn navbar-btn">登录</a>
+            <a class="btn navbar-btn">注册</a>
+            <a class="btn navbar-btn pull-right visible-xs" id="menu">三</a>
+        </div>
+        <div class="bg"></div>
+        <ul class="clicks">
+		    <li>
+		    	<a href="#" id="menu_btn">解决方案</a>
+		    	<ul class="list-unstyled">
+		          <li><a href="../program/01.html">文化/广告/传媒</a></li>
+		          <li><a href="../program/02.html">教育培训</a></li>
+		          <li><a href="../program/03.html">电商</a></li>
+		          <li><a href="../program/04.html">大公司</a></li>
+		          <li><a href="../program/05.html">初创团队</a></li>
+		          <li><a href="../program/06.html">小金爱公益</a></li>
+		        </ul>
+		    </li>
+		    <li><a href="../special/special.html">产品特性</a></li>
+		    <li><a href="price.html">价格详情</a></li>
+		    <li><a href="../market/market.html">应用市场</a></li>
+		    <li><a href="../center/center.html">模板中心</a></li>
+		</ul>
+    </div>
+</header>
+<div class="jum-wrap container-fluid" style="padding: 0;">
+	<div class="container">
+		<div class="jumbotron jum text-center">
+			<h2>以全新方式开始工作</h2>
+			<p>无论你是刚刚接触金数据的新人，还是需要通过金数据进行团队协作，总有一款适合你。</p>
+			<div class="tab">
+				<ul class="nav-pills nav hidden-xs hidden-sm">
+				    <li class="active"><a href="#sec1" data-toggle="tab">年付</a></li>
+				    <li><a href="#sec2" data-toggle="tab">月付</a></li>
+				</ul>
+				<ul class="nav-pills nav visible-xs visible-sm">
+				    <li class="active"><a href="#sec3" data-toggle="tab">年付</a></li>
+				    <li><a href="#sec4" data-toggle="tab">月付</a></li>
+				</ul>
+				<div class="tab-content hidden-xs hidden-sm one">
+				    <section class="tab-pane active fade in clearfix" id="sec1">
+				    	<div class="col-sm-3">
+				    		<h3>免费版</h3>
+				    		<p>学生、轻度使用者</p>
+				    		<hr />
+				    		<p> ￥<span class="price">0</span>/<span class="price-unit">年</span></p>
+				    		<hr />
+				    		<ul class="list-unstyled">
+					            <li>每月提交50条数据</li>
+					            <li>27种免费字段</li>
+					            <li>强大的表单设计器</li>
+					       </ul>
+					        <a class="btn" href="#">免费体验</a>
+				    	</div>
+				    	<div class="col-sm-3">
+				    		<h3>专业版</h3>
+				    		<p>职场人员、营销人员、公众号运营者</p>
+				    		<hr />
+				    		<p> ￥<span class="price">499</span>/<span class="price-unit">年</span></p>
+				    		<hr />
+				    		<ul class="list-unstyled">
+					            <li>每月提交10万条数据</li>
+					            <li>每月上传1GB附件量</li>
+					            <li>数据恢复</li>
+					            <li>自定义短信和邮件</li>
+					            <li>商品字段，支持微信支付</li>
+					        </ul>
+							<a class="btn" href="#">立即购买</a>
+					        <div class="aa">最受欢迎</div>
+				    	</div>
+				    	<div class="col-sm-3">
+				    		<h3>专业增强版</h3>
+				    		<p>中小型团队</p>
+				    		<hr />
+				    		<p> ￥<span class="price">1999</span>/<span class="price-unit">年</span></p>
+				    		<hr />
+				    		<ul class="list-unstyled">
+					            <li>包含专业增强版所有功能</li>
+					            <li>独立二级域名，更安全</li>
+					            <li>支持子账户协作</li>
+					            <li>多级下拉框，计算字段</li>
+					            <li>仅限微信粉丝填写</li>
+					            <li>绑定微信企业号、钉钉</li>
+					        </ul>
+					        <a class="btn" href="#">立即购买</a>
+				    	</div>
+				    	<div class="col-sm-3">
+				    		<h3>企业版</h3>
+				    		<p>大型企业、集团</p>
+				    		<hr />
+				    		<p> ￥<span class="price">3,999</span><span class="price-unit">起</span></p>
+				    		<hr />
+				    		<ul class="list-unstyled">
+					            <li>包含专业版所有功能</li>
+					            <li>每月收集10万条数据</li>
+					            <li>每月上传5GB附件量</li>
+					            <li>隐藏金数据Logo</li>
+					            <li>自定义表单域名</li>
+					            <li>跨表单数据关联</li>
+					        </ul>
+					        <a class="btn" href="#">立即购买</a>
+				    	</div>
+				    </section>
+				    <section class="tab-pane fade clearfix" id="sec2">
+				    	<div class="col-sm-3">
+				    		<h3>免费版</h3>
+				    		<p>学生、轻度使用者</p>
+				    		<hr />
+				    		<p> ￥<span class="price">0</span>/<span class="price-unit">月</span></p>
+				    		<hr />
+				    		<ul class="list-unstyled">
+					            <li>每月提交50条数据</li>
+					            <li>27种免费字段</li>
+					            <li>强大的表单设计器</li>
+					        </ul>
+					        <div>
+					            <a class="btn" href="#">免费体验</a>
+					        </div>
+				    	</div>
+				    	<div class="col-sm-3">
+				    		<h3>专业版</h3>
+				    		<p>职场人员、营销人员、公众号运营者</p>
+				    		<hr />
+				    		<p style="color: #848484; font-size: 18px; line-height: 42px;">仅限年付</p>
+				    		<hr />
+				    		<ul class="list-unstyled">
+					            <li>每月提交10万条数据</li>
+					            <li>每月上传1GB附件量</li>
+					            <li>数据恢复</li>
+					            <li>自定义短信和邮件</li>
+					            <li>商品字段，支持微信支付</li>
+					        </ul>
+					        <div>
+					            <a class="btn" href="#">立即购买</a>
+					        </div>
+					        <div class="aa">最受欢迎</div>
+				    	</div>
+				    	<div class="col-sm-3">
+				    		<h3>专业增强版</h3>
+				    		<p>中小型团队</p>
+				    		<hr />
+				    		<p> ￥<span class="price">199</span>/<span class="price-unit">月</span></p>
+				    		<hr />
+				    		<ul class="list-unstyled">
+					            <li>包含专业增强版所有功能</li>
+					            <li>独立二级域名，更安全</li>
+					            <li>支持子账户协作</li>
+					            <li>多级下拉框，计算字段</li>
+					            <li>仅限微信粉丝填写</li>
+					            <li>绑定微信企业号、钉钉</li>
+					        </ul>
+					        <div>
+					            <a class="btn" href="#">立即购买</a>
+					        </div>
+				    	</div>
+				    	<div class="col-sm-3">
+				    		<h3>企业版</h3>
+				    		<p>大型企业、集团</p>
+				    		<hr />
+				    		<p> ￥<span class="price">3,999</span><span class="price-unit">起</span></p>
+				    		<hr />
+				    		<ul class="list-unstyled">
+					            <li>包含专业版所有功能</li>
+					            <li>每月收集10万条数据</li>
+					            <li>每月上传5GB附件量</li>
+					            <li>隐藏金数据Logo</li>
+					            <li>自定义表单域名</li>
+					            <li>跨表单数据关联</li>
+					        </ul>
+					        <div>
+					            <a class="btn" href="#">立即购买</a>
+					        </div>
+				    	</div>
+				    </section>				   
+				</div>
+				<div class="tab-content visible-xs visible-sm two">
+				 	<section class="tab-pane active fade in" id="sec3">
+				    	<ul class="nav-pills nav">
+						    <li class="active"><a href="#tab1" data-toggle="tab" id="free">免费版</a></li>
+						    <li><a href="#tab2" data-toggle="tab" id="major">专业版</a></li>
+						    <li><a href="#tab3" data-toggle="tab" id="enhance">增强版</a></li>
+						    <li><a href="#tab4" data-toggle="tab">企业版</a></li>
+						</ul>
+						<div class="tab-content">
+							<section class="tab-pane active fade in" id="tab1">
+								<h3>免费版</h3>
+					    		<p>学生、轻度使用者</p>
+					    		<hr />
+					    		<p> ￥<span class="price">0</span>/<span class="price-unit">年</span></p>
+					    		<hr />
+					    		<ul class="list-unstyled">
+						            <li>每月提交50条数据</li>
+						            <li>27种免费字段</li>
+						            <li>强大的表单设计器</li>
+						        </ul>
+						        <a class="btn" href="#" style="background: #71B300;">免费体验</a>
+							</section>
+							<section class="tab-pane fade" id="tab2">
+								<h3>专业版</h3>
+					    		<p>职场人员、营销人员、公众号运营者</p>
+					    		<hr />
+					    		<p> ￥<span class="price">499</span>/<span class="price-unit">年</span></p>
+					    		<hr />
+					    		<ul class="list-unstyled">
+						            <li>每月提交10万条数据</li>
+						            <li>每月上传1GB附件量</li>
+						            <li>数据恢复</li>
+						            <li>自定义短信和邮件</li>
+						            <li>商品字段，支持微信支付</li>
+						        </ul>
+						        <a class="btn" href="#">立即购买</a>
+							</section>
+							<section class="tab-pane fade" id="tab3">
+								<h3>专业增强版</h3>
+					    		<p>中小型团队</p>
+					    		<hr />
+					    		<p> ￥<span class="price">1999</span>/<span class="price-unit">年</span></p>
+					    		<hr />
+					    		<ul class="list-unstyled">
+						            <li>包含专业增强版所有功能</li>
+						            <li>独立二级域名，更安全</li>
+						            <li>支持子账户协作</li>
+						            <li>多级下拉框，计算字段</li>
+						            <li>仅限微信粉丝填写</li>
+						            <li>绑定微信企业号、钉钉</li>
+						        </ul>
+						        <a class="btn" href="#">立即购买</a>
+							</section>
+							<section class="tab-pane fade" id="tab4">
+								<h3>企业版</h3>
+					    		<p>大型企业、集团</p>
+					    		<hr />
+					    		<p> ￥<span class="price">3,999</span><span class="price-unit">起</span></p>
+					    		<hr />
+					    		<ul class="list-unstyled">
+						            <li>包含专业版所有功能</li>
+						            <li>每月收集10万条数据</li>
+						            <li>每月上传5GB附件量</li>
+						            <li>隐藏金数据Logo</li>
+						            <li>自定义表单域名</li>
+						            <li>跨表单数据关联</li>
+						       </ul>
+						        <a class="btn" href="#">立即购买</a>
+							</section>
+						</div>
+				    </section>
+				    <section class="tab-pane fade" id="sec4">
+				    	<ul class="nav-pills nav">
+						    <li class="active"><a href="#tab01" data-toggle="tab">免费版</a></li>
+						    <li><a href="#tab02" data-toggle="tab">专业版</a></li>
+						    <li><a href="#tab03" data-toggle="tab">增强版</a></li>
+						    <li><a href="#tab04" data-toggle="tab">企业版</a></li>
+						</ul>
+						<div class="tab-content">
+							<section class="tab-pane active fade in" id="tab01">
+								<h3>免费版</h3>
+					    		<p>学生、轻度使用者</p>
+					    		<hr />
+					    		<p> ￥<span class="price">0</span>/<span class="price-unit">月</span></p>
+					    		<hr />
+					    		<ul class="list-unstyled">
+						            <li>每月提交50条数据</li>
+						            <li>27种免费字段</li>
+						            <li>强大的表单设计器</li>
+						        </ul>
+						        <a class="btn" href="#" style="background: #71B300;">免费体验</a>
+							</section>
+							<section class="tab-pane fade" id="tab02">
+								<h3>专业版</h3>
+					    		<p>职场人员、营销人员、公众号运营者</p>
+					    		<hr />
+					    		<p style="height: 42px; line-height: 42px; color: #848484;">仅限年付</p>
+					    		<hr />
+					    		<ul class="list-unstyled">
+						            <li>每月提交10万条数据</li>
+						            <li>每月上传1GB附件量</li>
+						            <li>数据恢复</li>
+						            <li>自定义短信和邮件</li>
+						            <li>商品字段，支持微信支付</li>
+						        </ul>
+						        <a class="btn" href="#">立即购买</a>
+							</section>
+							<section class="tab-pane fade" id="tab03">
+								<h3>专业增强版</h3>
+					    		<p>中小型团队</p>
+					    		<hr />
+					    		<p> ￥<span class="price">199</span>/<span class="price-unit">月</span></p>
+					    		<hr />
+					    		<ul class="list-unstyled">
+						            <li>包含专业增强版所有功能</li>
+						            <li>独立二级域名，更安全</li>
+						            <li>支持子账户协作</li>
+						            <li>多级下拉框，计算字段</li>
+						            <li>仅限微信粉丝填写</li>
+						            <li>绑定微信企业号、钉钉</li>
+						        </ul>
+						        <a class="btn" href="#">立即购买</a>
+							</section>
+							<section class="tab-pane fade" id="tab04">
+								<h3>企业版</h3>
+					    		<p>大型企业、集团</p>
+					    		<hr />
+					    		<p> ￥<span class="price">3,999</span><span class="price-unit">起</span></p>
+					    		<hr />
+					    		<ul class="list-unstyled">
+						            <li>包含专业版所有功能</li>
+						            <li>每月收集10万条数据</li>
+						            <li>每月上传5GB附件量</li>
+						            <li>隐藏金数据Logo</li>
+						            <li>自定义表单域名</li>
+						            <li>跨表单数据关联</li>
+						       </ul>
+						        <a class="btn" href="#">立即购买</a>
+							</section>
+						</div>
+				    </section>
+				</div>
+				<span>注：付费版套餐中包含所有免费功能</span>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="col-md-10 col-md-push-1 main" style="padding: 0;">
+		<h3 class="text-center">各套餐详细功能对比</h3>
+		<div class="resource">
+			<h4>数据资源</h4>
+			<table class="table-striped table">
+				<tr>
+					<td></td>
+					<td class="plan free">免费版</td>
+					<td class="plan major">专业版</td>
+					<td class="plan enhance">专业增强版</td>
+				</tr>
+				<tr>
+					<td class="feature">短信量<i class="glyphicon glyphicon-question-sign" title="关于套餐内短信量" data-toggle="popover"  data-placement="bottom" data-content="可用于发送短信验证码和通知类型的短信。暂不支持发送营销类短信" data-html="true" data-trigger="click"></i></td>
+					<td class="free">5条/月</td>
+					<td class="major">100条/月</td>
+					<td class="enhance">200条/月</td>
+				</tr>
+				<tr>
+					<td class="feature">邮件量<i class="glyphicon glyphicon-question-sign" title="关于套餐内邮件量" data-toggle="popover"  data-placement="bottom" data-content="可用于邮件推送提醒、给联系人发邮件。" data-html="true" data-trigger="click"></i></td>
+					<td class="free">5条/月</td>
+					<td class="major">100条/月</td>
+					<td class="enhance">200条/月</td>
+				</tr>
+				<tr>
+					<td class="feature">数据提交量<i class="glyphicon glyphicon-question-sign" title="关于数据提交量" data-toggle="popover"  data-placement="bottom" data-content="表单每被填写并提交成功一次，意味着收集到了一条「数据」。" data-html="true" data-trigger="click"></i></td>
+					<td class="free">50条/月</td>
+					<td class="major">10万条/月</td>
+					<td class="enhance">10万条/月</td>
+				</tr>
+				<tr>
+					<td class="feature">附件上传量<i class="glyphicon glyphicon-question-sign" title="关于附件上传量" data-toggle="popover"  data-placement="bottom" data-content="用来收集照片、音频、简历、设计图等一切文件" data-html="true" data-trigger="click"></i></td>
+					<td class="free">100MB/月</td>
+					<td class="major">1GB/月</td>
+					<td class="enhance">5GB/月</td>
+				</tr>
+			</table>
+			<h4>品牌彰显</h4>
+			<table class="table-striped table">
+				<tr>
+					<td></td>
+					<td class="plan free">免费版</td>
+					<td class="plan major">专业版</td>
+					<td class="plan enhance">专业增强版</td>
+				</tr>
+				<tr>
+					<td class="feature">隐藏金数据LOGO<i class="glyphicon glyphicon-question-sign" ></i></td>
+					<td class="free"></td>
+					<td class="major">2元/天</td>
+					<td class="enhance"><i class="glyphicon glyphicon-ok"></i></td>
+				</tr>
+				<tr>
+					<td class="feature">自定义表单域名<i class="glyphicon glyphicon-question-sign"></i></td>
+					<td class="free"></td>
+					<td class="major">3元/天</td>
+					<td class="enhance"><i class="glyphicon glyphicon-ok"></i></td>
+				</tr>
+				<tr>
+					<td class="feature">提交后图文展示</td>
+					<td class="free"></td>
+					<td class="major"><i class="glyphicon glyphicon-ok"></i></td>
+					<td class="enhance"><i class="glyphicon glyphicon-ok"></i></td>
+				</tr>
+			</table>
+			<h4>其它</h4>
+			<table class="table-striped table">
+				<tr>
+					<td></td>
+					<td class="plan free">免费版</td>
+					<td class="plan major">专业版</td>
+					<td class="plan enhance">专业增强版</td>
+				</tr>
+				<tr>
+					<td class="feature">表单微信支付（需先向微信申请）<i class="glyphicon glyphicon-question-sign" ></i></td>
+					<td class="free"></td>
+					<td class="major"><i class="glyphicon glyphicon-ok"></i></td>
+					<td class="enhance"><i class="glyphicon glyphicon-ok"></i></td>
+				</tr>
+				<tr>
+					<td class="feature">应用中心（需额外购买）<i class="glyphicon glyphicon-question-sign"></i></td>
+					<td class="free"></td>
+					<td class="major"><i class="glyphicon glyphicon-ok"></i></td>
+					<td class="enhance"><i class="glyphicon glyphicon-ok"></i></td>
+				</tr>
+				<tr>
+					<td class="feature">无广告<i class="glyphicon glyphicon-question-sign"></i></td>
+					<td class="free"></td>
+					<td class="major"><i class="glyphicon glyphicon-ok"></i></td>
+					<td class="enhance"><i class="glyphicon glyphicon-ok"></i></td>
+				</tr>
+				<tr>
+					<td class="feature">数据提交跳转</td>
+					<td class="free"></td>
+					<td class="major"></td>
+					<td class="enhance"><i class="glyphicon glyphicon-ok"></i></td>
+				</tr>
+			</table>
+			<h4>表单编辑</h4>
+			<table class="table-striped table">
+				<tr>
+					<td></td>
+					<td class="plan free">免费版</td>
+					<td class="plan major">专业版</td>
+					<td class="plan enhance">专业增强版</td>
+				</tr>
+				<tr>
+					<td class="feature">24种免费字段<i class="glyphicon glyphicon-question-sign" ></i></td>
+					<td class="free"><i class="glyphicon glyphicon-ok"></i></td>
+					<td class="major"><i class="glyphicon glyphicon-ok"></i></td>
+					<td class="enhance"><i class="glyphicon glyphicon-ok"></i></td>
+				</tr>
+				<tr>
+					<td class="feature">强大的表单设计器<i class="glyphicon glyphicon-question-sign"></i></td>
+					<td class="free"><i class="glyphicon glyphicon-ok"></i></td>
+					<td class="major"><i class="glyphicon glyphicon-ok"></i></td>
+					<td class="enhance"><i class="glyphicon glyphicon-ok"></i></td>
+				</tr>
+				<tr>
+					<td class="feature">80个免费主题</td>
+					<td class="free"><i class="glyphicon glyphicon-ok"></i></td>
+					<td class="major"><i class="glyphicon glyphicon-ok"></i></td>
+					<td class="enhance"><i class="glyphicon glyphicon-ok"></i></td>
+				</tr>
+				<tr>
+					<td class="feature">商品字段<i class="glyphicon glyphicon-question-sign"></i></td>
+					<td class="free"></td>
+					<td class="major"><i class="glyphicon glyphicon-ok"></i></td>
+					<td class="enhance"><i class="glyphicon glyphicon-ok"></i></td>
+				</tr>
+				<tr>
+					<td class="feature">表单关联<i class="glyphicon glyphicon-question-sign"></i></td>
+					<td class="free"></td>
+					<td class="major"></td>
+					<td class="enhance"><i class="glyphicon glyphicon-ok"></i></td>
+				</tr>
+			</table>
+			<h4>客服支持</h4>
+			<table class="table-striped table">
+				<tr>
+					<td></td>
+					<td class="plan free">免费版</td>
+					<td class="plan major">专业版</td>
+					<td class="plan enhance">专业增强版</td>
+				</tr>
+				<tr>
+					<td class="feature">工单支持</td>
+					<td class="free">48小时	</td>
+					<td class="major">24小时	</td>
+					<td class="enhance">2小时</td>
+				</tr>
+				<tr>
+					<td class="feature">QQ在线支持</td>
+					<td class="free"></td>
+					<td class="major"></td>
+					<td class="enhance"><i class="glyphicon glyphicon-ok"></i></td>
+				</tr>
+				<tr>
+					<td class="feature">电话支持</td>
+					<td class="free"></td>
+					<td class="major"></td>
+					<td class="enhance"><i class="glyphicon glyphicon-ok"></i></td>
+				</tr>
+				<tr>
+					<td class="feature"></td>
+					<td class="free"><a href="#" class="btn">免费体验</a></td>
+					<td class="major"><a href="#" class="btn">¥499/年</a></td>
+					<td class="enhance"><a href="#" class="btn">¥1999/年</a></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</div>
+<footer class="container-fluid">
+	<div class="container footer-one">
+		<div class="col-md-6 clearfix">
+			<div class="col-xs-4">
+				<dl class="col-xs-10 col-xs-push-1">
+					<dt>产品</dt>
+					<dd><a href="#">功能介绍</a></dd>
+					<dd><a href="#">最近更新</a></dd>
+					<dd><a href="#">开放平台</a></dd>
+				</dl>
+			</div>				
+			<div class="col-xs-4">
+				<dl class="col-xs-10 col-xs-push-1">
+					<dt>产品</dt>
+					<dd><a href="#">帮助中心</a></dd>
+					<dd><a href="#">产品博客</a></dd>
+					<dd><a href="#">模板中心</a></dd>
+					<dd><a href="#">使用手册</a></dd>
+				</dl>
+			</div>				
+			<div class="col-xs-4">
+				<dl class="col-xs-10 col-xs-push-1">
+					<dt>产品</dt>
+					<dd><a href="#">关于我们</a></dd>
+					<dd><a href="#">合作伙伴</a></dd>
+					<dd><a href="#">广义计划</a></dd>
+					<dd><a href="#">使用条款</a></dd>
+					<dd><a href="#">隐私保护</a></dd>
+				</dl>
+			</div>				
+		</div>
+		<div class="col-md-6">
+			<h4>金数据</h4>
+			<p>金数据是人人可用的在线表单工具，帮助用户收集和管理日常工作中的数据，提升工作效率。任何行业和岗位的人员，无需特殊技能，都可以方便的创建出符合业务需求的表单。</p>
+		</div>
+	</div>
+	<div class="container-fluid footer-two">
+		<div class="container clearfix">
+			<img src="images/wechat-qrcode-b99a1ea2cb6c43ac6ab7df6efad047b45b4340276f0c824cf661cb26586714e8.jpg"  class="center-block visible-xs" />
+			<p class="col-md-7 col-xs-12 text-center"><span class="hidden-xs hidden-sm">@金数据 2012~2017 | </span>京ICP备15055499号-1 | 京公网安备11010802022633号</p>
+			<div class="col-md-3 col-md-push-2 col-xs-12 text-center">
+				<a href="#">关注微博</a>
+				<a href="#" class="hidden-xs hidden-sm">微信公众号</a>
+			</div>
+		</div>
+	</div>		
+</footer>
+<script src="../js/jquery-1.11.3.js"></script>
+<script src="../js/bootstrap.js"></script>
+<script src="js/price.js"></script>
+</body>
+</html>

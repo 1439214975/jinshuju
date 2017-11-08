@@ -1,0 +1,26 @@
+$(document).ready(function(){
+	$("#menu").click(function(){
+		$(".clicks").animate({right:'0px'});
+		$(".bg").show();
+	})
+	$(".bg").click(function(){
+		$(".clicks").animate({right:'-200px'});
+		$(".bg").hide();
+	})
+	$('#menu_btn').click(function(){
+		$(this).siblings('ul').slideToggle();
+	})
+	$('[data-toggle="popover"]').popover();
+	$('#major').click(function(){
+		$('.free,.major,.enhance').hide()
+		$('.major').show();
+	})
+	$('#free').click(function(){
+		$('.free,.major,.enhance').hide();
+		$('.free').show();
+	})
+	$('#enhance').click(function(){
+		$('.free,.major,.enhance').hide();
+		$('.enhance').show();
+	})
+});	

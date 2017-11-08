@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <!--让ie按照最新版本进行渲染-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--移动设备优先 视窗                  宽度=设备宽度      缩放比例1倍      最大缩放比例1倍   禁止用户缩放-->
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+    <!--bootstrap核心css文件-->
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/center.css"/>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+<header class="navbar container-fluid head">
+    <div class="container">
+        <div class="navbar-header logo">
+            <a href="../index.html">金数据</a>
+        </div>
+        <ul class="navbar-nav nav hidden-xs">
+            <li>
+            	<a href="#" data-toggle="dropdown">解决方案</a>
+            	<ul class="dropdown-menu">
+	              <li><a href="../program/01.html">文化/广告/传媒</a></li>
+	              <li><a href="../program/02.html">教育培训</a></li>
+	              <li><a href="../program/03.html">电商</a></li>
+	              <li><a href="../program/04.html">大公司</a></li>
+	              <li><a href="../program/05.html">初创团队</a></li>
+	              <li><a href="../program/06.html">小金爱公益</a></li>
+	            </ul>
+            </li>
+            <li><a href="../special/special.html">产品特性</a></li>
+            <li><a href="../price/price.html">价格详情</a></li>
+            <li><a href="../market/market.html">应用市场</a></li>
+            <li><a href="center.html">模板中心</a></li>
+        </ul>
+        <div class="pull-right btn-right">
+            <a class="btn navbar-btn">登录</a>
+            <a class="btn navbar-btn">注册</a>
+            <a class="btn navbar-btn pull-right visible-xs" id="menu">三</a>
+        </div>
+        <div class="bg"></div>
+        <ul class="clicks">
+		    <li>
+		    	<a href="#" id="menu_btn">解决方案</a>
+		    	<ul class="list-unstyled">
+		          <li><a href="../program/01.html">文化/广告/传媒</a></li>
+		          <li><a href="../program/02.html">教育培训</a></li>
+		          <li><a href="../program/03.html">电商</a></li>
+		          <li><a href="../program/04.html">大公司</a></li>
+		          <li><a href="../program/05.html">初创团队</a></li>
+		          <li><a href="../program/06.html">小金爱公益</a></li>
+		        </ul>
+		    </li>
+		    <li><a href="../special/special.html">产品特性</a></li>
+		    <li><a href="../price/price.html">价格详情</a></li>
+		    <li><a href="../market/market.html">应用市场</a></li>
+		    <li><a href="center.html">模板中心</a></li>
+		</ul>
+    </div>
+</header>
+<div class="container small hidden-xs">
+	<ul class="nav navbar-nav">
+		<li><a href="#">广场</a></li>
+		<li>
+			<a href="#">用途</a>
+			<ul class="hides list-unstyled">
+				<li><a href="#">活动报名</a></li>
+				<li><a href="#">问卷调研</a></li>
+				<li><a href="#">意见反馈</a></li>
+				<li><a href="#">商品订单</a></li>
+				<li><a href="#">投票</a></li>
+				<li><a href="#">测评</a></li>
+				<li><a href="#">预约</a></li>
+				<li><a href="#">申请</a></li>
+				<li><a href="#">招聘</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="#">行业</a>
+			<ul class="hides list-unstyled">
+				<li><a href="#">活动报名</a></li>
+				<li><a href="#">问卷调研</a></li>
+				<li><a href="#">意见反馈</a></li>
+				<li><a href="#">商品订单</a></li>
+				<li><a href="#">投票</a></li>
+				<li><a href="#">测评</a></li>
+				<li><a href="#">预约</a></li>
+				<li><a href="#">申请</a></li>
+				<li><a href="#">招聘</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="#">专题</a>
+			<ul class="hides list-unstyled">
+				<li><a href="#">活动报名</a></li>
+				<li><a href="#">问卷调研</a></li>
+				<li><a href="#">意见反馈</a></li>
+				<li><a href="#">商品订单</a></li>
+				<li><a href="#">投票</a></li>
+				<li><a href="#">测评</a></li>
+				<li><a href="#">预约</a></li>
+				<li><a href="#">申请</a></li>
+				<li><a href="#">招聘</a></li>
+			</ul>
+		</li>
+	</ul>
+	<div class="pull-right hidden-sm input-group">
+		<input type="text" placeholder="搜索模板" class="form-control" />
+	</div>
+</div>
+<div class="main">
+	<div class="container">
+		<div class="col-sm-12 col-md-10">
+			<ul class="nav-pills nav bread">
+			    <li class="active"><a href="#sec1" data-toggle="tab">教育培训</a></li>
+			    <li><a href="#sec2" data-toggle="tab">文化/广告/传媒</a></li>
+			    <li><a href="#sec3" data-toggle="tab">制造业</a></li>
+			    <li><a href="#sec4" data-toggle="tab">金融服务</a></li>
+			    <li><a href="#sec5" data-toggle="tab">电商</a></li>
+			    <li><a href="#sec6" data-toggle="tab">生活服务</a></li>
+			    <li><a href="#sec7" data-toggle="tab">社群组织</a></li>
+			    <li><a href="#sec8" data-toggle="tab">互联网/软件</a></li>
+			    <li><a href="#sec9" data-toggle="tab">零首</a></li>
+			    <li><a href="#sec10" data-toggle="tab">非营利性机构</a></li>
+			    <li><a href="#sec11" data-toggle="tab">医疗</a></li>
+			    <li><a href="#sec12" data-toggle="tab">旅游</a></li>
+			    <li><a href="#sec13" data-toggle="tab">餐饮/酒店</a></li>
+			    <li><a href="#sec14" data-toggle="tab">更多行业</a></li>
+			</ul>
+			<div class="tab-content">
+				<div class="content more clearfix tab-pane active fade in" id="sec1">
+					<div class="col-sm-3 col-xs-6">
+						<div class="wrap">
+							<img src="images/aa.png"  class="img-responsive center-block" />
+							<p>试听课预约</p>
+						</div>
+					</div>
+					<div class="col-sm-3 col-xs-6">
+						<div class="wrap">
+							<img src="images/bb.png"  class="img-responsive center-block" />
+							<p>试听课预约</p>
+						</div>
+					</div>
+					<div class="col-sm-3 col-xs-6">
+						<div class="wrap">
+							<img src="images/cc.png"  class="img-responsive center-block" />
+							<p>试听课预约</p>
+						</div>
+					</div>
+					<div class="col-sm-3 col-xs-6">
+						<div class="wrap">
+							<img src="images/aa.png"  class="img-responsive center-block" />
+							<p>试听课预约</p>
+						</div>
+					</div>
+					<div class="col-sm-3 col-xs-6">
+						<div class="wrap">
+							<img src="images/bb.png"  class="img-responsive center-block" />
+							<p>试听课预约</p>
+						</div>
+					</div>
+					<div class="col-sm-3 col-xs-6">
+						<div class="wrap">
+							<img src="images/cc.png"  class="img-responsive center-block" />
+							<p>试听课预约</p>
+						</div>
+					</div>
+					<div class="col-sm-3 col-xs-6">
+						<div class="wrap">
+							<img src="images/bb.png"  class="img-responsive center-block" />
+							<p>试听课预约</p>
+						</div>
+					</div>
+					<div class="col-sm-3 col-xs-6">
+						<div class="wrap">
+							<img src="images/cc.png"  class="img-responsive center-block" />
+							<p>试听课预约</p>
+						</div>
+					</div>
+				</div>
+				<div class="content more clearfix tab-pane fade" id="sec2">
+					<div class="col-sm-3 col-xs-6">
+						<div class="wrap">
+							<img src="images/dd.png"  class="img-responsive center-block" />
+							<p>试听课预约</p>
+						</div>
+					</div>
+					<div class="col-sm-3 col-xs-6">
+						<div class="wrap">
+							<img src="images/ee.png"  class="img-responsive center-block" />
+							<p>试听课预约</p>
+						</div>
+					</div>
+					<div class="col-sm-3 col-xs-6">
+						<div class="wrap">
+							<img src="images/ff.png"  class="img-responsive center-block" />
+							<p>试听课预约</p>
+						</div>
+					</div>
+					<div class="col-sm-3 col-xs-6">
+						<div class="wrap">
+							<img src="images/ee.png"  class="img-responsive center-block" />
+							<p>试听课预约</p>
+						</div>
+					</div>
+					<div class="col-sm-3 col-xs-6">
+						<div class="wrap">
+							<img src="images/dd.png"  class="img-responsive center-block" />
+							<p>试听课预约</p>
+						</div>
+					</div>
+					<div class="col-sm-3 col-xs-6">
+						<div class="wrap">
+							<img src="images/ff.png"  class="img-responsive center-block" />
+							<p>试听课预约</p>
+						</div>
+					</div>
+					<div class="col-sm-3 col-xs-6">
+						<div class="wrap">
+							<img src="images/dd.png"  class="img-responsive center-block" />
+							<p>试听课预约</p>
+						</div>
+					</div>
+					<div class="col-sm-3 col-xs-6">
+						<div class="wrap">
+							<img src="images/ee.png"  class="img-responsive center-block" />
+							<p>试听课预约</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<p class="text-right">
+				<a href="#">查看更多</a>
+			</p>
+			<ul class="nav-pills nav bread">
+				<li class="active"><a href="#sec01" data-toggle="tab">活动报名</a></li>
+			    <li><a href="#sec02" data-toggle="tab">问卷调研</a></li>
+			    <li><a href="#sec03" data-toggle="tab">意见反馈</a></li>
+			    <li><a href="#sec04" data-toggle="tab">商品订单</a></li>
+			    <li><a href="#sec05" data-toggle="tab">投票</a></li>
+			    <li><a href="#sec06" data-toggle="tab">测评</a></li>
+			    <li><a href="#sec07" data-toggle="tab">预约</a></li>
+			    <li><a href="#sec08" data-toggle="tab">申请</a></li>
+			    <li><a href="#sec09" data-toggle="tab">招聘</a></li>
+			</ul>
+			<div class="tab-content">
+				<div class="content clearfix tab-pane active in fade" id="sec01">
+					<div class="col-sm-3 col-xs-6">
+						<div class="wrap">
+							<img src="images/dd.png"  class="img-responsive center-block" />
+							<p>试听课预约</p>
+						</div>
+					</div>
+					<div class="col-sm-3 col-xs-6">
+						<div class="wrap">
+							<img src="images/ff.png"  class="img-responsive center-block" />
+							<p>试听课预约</p>
+						</div>
+					</div>
+					<div class="col-sm-3 col-xs-6">
+						<div class="wrap">
+							<img src="images/ee.png"  class="img-responsive center-block" />
+							<p>试听课预约</p>
+						</div>
+					</div>
+					<div class="col-sm-3 col-xs-6">
+						<div class="wrap">
+							<img src="images/ee.png"  class="img-responsive center-block" />
+							<p>试听课预约</p>
+						</div>
+					</div>
+					<div class="col-sm-3 col-xs-6">
+						<div class="wrap">
+							<img src="images/ff.png"  class="img-responsive center-block" />
+							<p>试听课预约</p>
+						</div>
+					</div>
+					<div class="col-sm-3 col-xs-6">
+						<div class="wrap">
+							<img src="images/dd.png"  class="img-responsive center-block" />
+							<p>试听课预约</p>
+						</div>
+					</div>
+					<div class="col-sm-3 col-xs-6">
+						<div class="wrap">
+							<img src="images/ff.png"  class="img-responsive center-block" />
+							<p>试听课预约</p>
+						</div>
+					</div>
+					<div class="col-sm-3 col-xs-6">
+						<div class="wrap">
+							<img src="images/dd.png"  class="img-responsive center-block" />
+							<p>试听课预约</p>
+						</div>
+					</div>
+				</div>
+				<div class="content clearfix tab-pane fade" id="sec02">
+					<div class="col-sm-3 col-xs-6">
+						<div class="wrap">
+							<img src="images/aa.png"  class="img-responsive center-block" />
+							<p>试听课预约</p>
+						</div>
+					</div>
+					<div class="col-sm-3 col-xs-6">
+						<div class="wrap">
+							<img src="images/bb.png"  class="img-responsive center-block" />
+							<p>试听课预约</p>
+						</div>
+					</div>
+					<div class="col-sm-3 col-xs-6">
+						<div class="wrap">
+							<img src="images/bb.png"  class="img-responsive center-block" />
+							<p>试听课预约</p>
+						</div>
+					</div>
+					<div class="col-sm-3 col-xs-6">
+						<div class="wrap">
+							<img src="images/aa.png"  class="img-responsive center-block" />
+							<p>试听课预约</p>
+						</div>
+					</div>
+					<div class="col-sm-3 col-xs-6">
+						<div class="wrap">
+							<img src="images/bb.png"  class="img-responsive center-block" />
+							<p>试听课预约</p>
+						</div>
+					</div>
+					<div class="col-sm-3 col-xs-6">
+						<div class="wrap">
+							<img src="images/cc.png"  class="img-responsive center-block" />
+							<p>试听课预约</p>
+						</div>
+					</div>
+					<div class="col-sm-3 col-xs-6">
+						<div class="wrap">
+							<img src="images/ff.png"  class="img-responsive center-block" />
+							<p>试听课预约</p>
+						</div>
+					</div>
+					<div class="col-sm-3 col-xs-6">
+						<div class="wrap">
+							<img src="images/dd.png"  class="img-responsive center-block" />
+							<p>试听课预约</p>
+						</div>
+					</div>
+				</div>				
+			</div>
+			<p class="text-right">
+				<a href="#" class="more">查看更多</a>
+			</p>
+		</div>
+		<div class="col-sm-12 col-md-2 wrap-aside">
+			<div class="aside">
+				<h4>最新认证</h4>
+				<ul class="list-unstyled">
+					<li><a href="#">1.活动报名</a></li>
+					<li><a href="#">2.员工满意度调查</a></li>
+					<li><a href="#">3.物业服务满意度调查问卷</a></li>
+					<li><a href="#">4.市场调查</a></li>
+					<li><a href="#">5.聚会报名表</a></li>
+					<li><a href="#">6.活动意见反馈表</a></li>
+					<li><a href="#">7.在线考试</a></li>
+					<li><a href="#">8.员工培训考评</a></li>
+					<li><a href="#">9.「春节不无聊」Party 报名</a></li>
+					<li><a href="#">10.双11-母婴定金翻倍专场商品提报</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="../js/jquery-1.11.3.js"></script>
+<script src="../js/bootstrap.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#menu").click(function(){
+			$(".clicks").animate({right:'0px'});
+			$(".bg").show();
+		})
+		$(".bg").click(function(){
+			$(".clicks").animate({right:'-200px'});
+			$(".bg").hide();
+		})
+		$('#menu_btn').click(function(){
+			$(this).siblings('ul').slideToggle();
+		})
+	});	
+
+</script>
+</body>
+</html>

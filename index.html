@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <!--让ie按照最新版本进行渲染-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--移动设备优先 视窗                  宽度=设备宽度      缩放比例1倍      最大缩放比例1倍   禁止用户缩放-->
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+    <!--bootstrap核心css文件-->
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css"/>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+<header class="navbar container-fluid head">
+    <div class="container">
+        <div class="navbar-header logo">
+            <a href="index.html">金数据</a>
+        </div>
+        <ul class="navbar-nav nav hidden-xs">
+            <li>
+            	<a href="#" data-toggle="dropdown">解决方案</a>
+            	<ul class="dropdown-menu">
+	              <li><a href="program/01.html">文化/广告/传媒</a></li>
+	              <li><a href="program/02.html">教育培训</a></li>
+	              <li><a href="program/03.html">电商</a></li>
+	              <li><a href="program/04.html">大公司</a></li>
+	              <li><a href="program/05.html">初创团队</a></li>
+	              <li><a href="program/06.html">小金爱公益</a></li>
+	            </ul>
+            </li>
+            <li><a href="special/special.html">产品特性</a></li>
+            <li><a href="price/price.html">价格详情</a></li>
+            <li><a href="market/market.html">应用市场</a></li>
+            <li><a href="center/center.html">模板中心</a></li>
+        </ul>
+        <div class="pull-right btn-right">
+            <a class="btn navbar-btn">登录</a>
+            <a class="btn navbar-btn">注册</a>
+            <a class="btn navbar-btn pull-right visible-xs" id="menu">三</a>
+        </div>
+        <div class="bg">
+        	
+        </div>
+        <ul class="clicks">
+		    <li>
+		    	<a href="#" id="menu_btn">解决方案</a>
+		    	<ul class="list-unstyled">
+		          <li><a href="program/01.html">文化/广告/传媒</a></li>
+		          <li><a href="program/02.html">教育培训</a></li>
+		          <li><a href="program/03.html">电商</a></li>
+		          <li><a href="program/04.html">大公司</a></li>
+		          <li><a href="program/05.html">初创团队</a></li>
+		          <li><a href="program/06.html">小金爱公益</a></li>
+		        </ul>
+		    </li>
+		    <li><a href="special/special.html">产品特性</a></li>
+		    <li><a href="price/price.html">价格详情</a></li>
+		    <li><a href="market/market.html">应用市场</a></li>
+		    <li><a href="center/center.html">模板中心</a></li>
+		</ul>
+    </div>
+</header>
+<div class="container-fluid jum-wrap">
+	<div class="container">
+		<div class="jumbotron text-center jum">
+			<h2>人人可用的在线表单工具</h2>
+			<p>金数据帮你收集和管理日常工作中的数据，把几小时的工作节约至零。</p>
+			<a class="btn">免费试用</a>
+		</div>
+	</div>
+</div>
+<div class="main">
+	<div class="container-fluid main-one">
+		<div class="container">
+			<h2>超过200万的用户使用金数据做在线考试</h2>
+			<ul class="list-unstyled clearfix">
+				<li class="color" onclick="tab('tab1')" id="li1">活动报名</li>
+				<li onclick="tab('tab2')" id="li2">线上预约</li>
+				<li onclick="tab('tab3')" id="li3">在线考试</li>
+				<li onclick="tab('tab4')" id="li4">支付订单</li>
+			</ul>
+			<div class="content">
+				<img src="images/form1.png" class="img-responsive act" id="tab1" />
+				<img src="images/form2.png" class="img-responsive" id="tab2" />
+				<img src="images/form3.png" class="img-responsive" id="tab3" />
+				<img src="images/form4.png" class="img-responsive" id="tab4" />
+			</div>
+		</div>	
+	</div>
+	<div class="container-fluid main-two">
+		<div class="container">
+			<h2 class="text-center">来自各行各业的最佳实践</h2>
+			<h3 class="text-center">阅读各行业的故事，看他们如何解决日常工作中的数据难题。</h3>
+			<div class="row">
+				<a href="program/01.html">
+					<div class="col-md-4 col-sm-6">
+						<div class="content">
+						    <img src="images/marketing-090f2d8a28552d191652b46b08589d91babb567636b8b01882191cdea8792f50.png" class="img-responsive" />			    
+					        <div class="article">
+					        	<h3>市场营销</h3>
+						        <p>快速满足问卷调研、活动组织、微信营销、新媒体运营等需求。</p>
+					        </div>
+				        </div>
+					</div>
+				</a>
+				<a href="program/02.html">
+					<div class="col-md-4 col-sm-6">	
+						<div class="content">
+						    <img src="images/education-18f429a6ac60de19eedb636bb065ea5dc0447c3328d010643f11d02635ecf26a.png" class="img-responsive" />			    
+					        <div class="article">
+					        	<h3>教育培训</h3>
+								<p>帮助解决招生报名、课程反馈、在线考试、学员管理等难题。</p>
+					        </div>	
+					    </div>    
+					</div>
+				</a>
+				<a href="program/03.html">
+					<div class="col-md-4 col-sm-6">
+						<div class="content">
+						    <img src="images/commerce-b434ad07f1afe4ad2c6a6882259ab0c7703c7338a611694f048fdf2605a32290.png" class="img-responsive" />			    
+					        <div class="article">
+					        	<h3>电商</h3>
+							    <p>自助搭建轻量级的在线订单和客户信息管理系统。</p>
+					        </div>	
+					    </div>    
+					</div>
+				</a>
+				<a href="program/04.html">
+					<div class="col-md-4 col-sm-6">
+						<div class="content">
+						    <img src="images/company-dd115967146f3a31be70c4e6031768240a23dfd63c5c3878b1b12dc0e48beb51.png" class="img-responsive" />			    
+					        <div class="article">
+					        	<h3>大公司</h3>
+					        	<p>无需IT部门支持，用表单完成以往word、excel相关的工作。</p>
+					        </div>
+					   </div>
+					</div>
+				</a>
+				<a href="program/05.html">
+					<div class="col-md-4 col-sm-6">	
+						<div class="content">
+						    <img src="images/team-220be7e12bb063ae39b049cbefc60741a9f66a2a8844af47c4470c2bb236b22e.png" class="img-responsive" />			    
+					        <div class="article">
+					        	<h3>初创团队</h3>
+								<p>高效完成产品运营的工作，从用户调查、售后跟进到招聘管理、活动组织。</p>
+					        </div>
+					    </div>    
+					</div>
+				</a>
+				<a href="program/06.html">
+					<div class="col-md-4 col-sm-6">
+						<div class="content">
+						    <img src="images/benefit-3cc345cc943dc1a4d03816ea9378b1a3249027e3cb249a37a9a27ae66cb8b1a0.png" class="img-responsive" />			    
+					        <div class="article">
+					        	<h3>公益组织</h3>
+						    	<p> 科技助力公益，解决志愿者招募、捐赠物资管理、社会调查等难题。</p>
+					        </div>
+					    </div>    
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid main-three">
+		<div class="container">
+			<h2 class="text-center">只需三步，自动化收集数据</h2>
+			<h3 class="text-center">操作简单易上手，任何岗位的你都可以即刻开始使用金数据。</h3>
+			<div class="row text-center">
+				<div class="col-md-3 col-sm-5">
+					<img src="images/create-8d8fc6a38dee4146d5471628261bd471946ef174ab2ca913170562b4bfb41af7.png"  class="img-responsive center-block" />
+					<h4>创建表单</h4>
+					<p>27种字段，搭积木般拖拽创建业务表单</p>
+				</div>
+				<div class="col-sm-1 biao hidden-xs"> 
+				</div>
+				<div class="col-md-3 col-sm-5">
+					<img src="images/fill-bb9f679b930582970e71cef2c6432f37562f3db173b080a0600a20353aaa2593.png" class="img-responsive center-block"  />
+					<h4>填写表单</h4>
+					<p>发布表单，用户随时随地的填写数据</p>
+				</div>
+				<div class="col-sm-1 biao hidden-xs"></div>
+				<div class="col-md-3 col-sm-12">
+					<img src="images/entries-1e157db2ee5d25a650af72bb0942744b9507822c507938341c8f717265fa97dd.png" class="img-responsive center-block"  />
+					<h4>查看数据</h4>
+					<p>实时数据收集，自动化的报表统计</p>						
+				</div>
+			</div>
+			<a href="#">观看20秒视频<i><img src="images/small.gif" /></i></a>
+		</div>
+	</div>
+	<div class="container-fluid main-four">
+		<div class="container">
+			<h2>更多强大的功能</h2>
+			<h3>功能模块的自由组合，满足更多业务场景的需求。</h3>
+			<div class="row">
+				<div class="col-md-3 col-xs-6">
+					<img src="images/weixin-45d49980ba6a86160721557ccaea6e157546538bc8f1fc94b64d4b2ec517cebb.png" class="center-block" />
+					<h4 class="text-center">微信增强</h4>
+					<p class="text-center">把表单集成到微信众号中使用，粉丝互动、在线投票、意见反馈，提升微信运营效率。</p>
+				</div>
+				<div class="col-md-3 col-xs-6">
+					<img src="images/gathering-906ee116688099164dd73859f2a43be1128a32865d83e4b5a9ccdd9af139ff99.png" class="center-block" />
+					<h4 class="text-center">在线收款</h4>
+					<p class="text-center">零手续费 + 即时到账，支持微信支付，通过表单在各种场景下，向任何人发起收款。</p>
+				</div>
+				<div class="col-md-3 col-xs-6">
+					<img src="images/contacts-3b420a219da326c2ee59385d0f7b00d38325f546150f9cd7092a6b3c0d019aeb.png" class="center-block" />
+					<h4 class="text-center">联系人管理</h4>
+					<p class="text-center">智能识别数据中的联系人信息，汇总填写记录，并支持短信/邮件等方式的消息触达。</p>
+				</div>
+				<div class="col-md-3 col-xs-6">
+					<img src="images/search-5204470be6243162f1bc9bd38a835771252f20bd168cb477ac42bfcc99ceddff.png" class="center-block" />
+					<h4 class="text-center">对外查询</h4>
+					<p class="text-center">把收集到的数据开放对外查询接口，搭建小型数据库系统，如预约查询、成绩查询、单号查询等。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid main-five">
+		<div class="container">
+			<h2>他们都在使用金数据</h2>
+			<h3>我们的用户遍及互联网、银行、制造、教育培训、新媒体等领域，优秀的服务经得起百万用户的考验。</h3>
+			<img src="images/logo-pc-f8cd5a4d3d3270508d6dccbdd45a4e84ffa179e0b11fb8c131a6d4eefc4fb732.png" class="img-responsive hidden-xs" />
+			<img src="images/logo-mobile-dba78ee1f2c96401c025f6889036d64c9097123bd72b790c5a46164f435e7bb4.png" class="img-responsive visible-xs" />
+			<a href="#" class="btn center-block">开始免费使用</a>
+			<a href="#" class="text-center">了解套餐价格</a>
+		</div>
+	</div>
+</div>
+<footer class="container-fluid">
+	<div class="container footer-one">
+		<div class="col-md-6 clearfix">
+			<div class="col-xs-4">
+				<dl>
+					<dt>产品</dt>
+					<dd><a href="#">功能介绍</a></dd>
+					<dd><a href="#">最近更新</a></dd>
+					<dd><a href="#">开放平台</a></dd>
+				</dl>
+			</div>				
+			<div class="col-xs-4">
+				<dl>
+					<dt>产品</dt>
+					<dd><a href="#">帮助中心</a></dd>
+					<dd><a href="#">产品博客</a></dd>
+					<dd><a href="#">模板中心</a></dd>
+					<dd><a href="#">使用手册</a></dd>
+				</dl>
+			</div>				
+			<div class="col-xs-4">
+				<dl>
+					<dt>产品</dt>
+					<dd><a href="#">关于我们</a></dd>
+					<dd><a href="#">合作伙伴</a></dd>
+					<dd><a href="#">广义计划</a></dd>
+					<dd><a href="#">使用条款</a></dd>
+					<dd><a href="#">隐私保护</a></dd>
+				</dl>
+			</div>				
+		</div>
+		<div class="col-md-6">
+			<h4>金数据</h4>
+			<p>金数据是人人可用的在线表单工具，帮助用户收集和管理日常工作中的数据，提升工作效率。任何行业和岗位的人员，无需特殊技能，都可以方便的创建出符合业务需求的表单。</p>
+		</div>
+	</div>
+	<div class="container-fluid footer-two">
+		<div class="container clearfix">
+			<img src="images/wechat-qrcode-b99a1ea2cb6c43ac6ab7df6efad047b45b4340276f0c824cf661cb26586714e8.jpg"  class="center-block visible-xs" />
+			<p class="col-md-7 col-xs-12 text-center"><span class="hidden-xs hidden-sm">@金数据 2012~2017 | </span>京ICP备15055499号-1 | 京公网安备11010802022633号</p>
+			<div class="col-md-3 col-md-push-2 col-xs-12 text-center">
+				<a href="#">关注微博</a>
+				<a href="#" class="hidden-xs hidden-sm">微信公众号</a>
+			</div>
+		</div>
+	</div>		
+</footer>
+<script type="text/javascript">
+	function tab(pid){
+		var lis=["li1","li2","li3","li4"];
+		var tabs=["tab1","tab2","tab3","tab4"];
+		for(var i=0;i<lis.length;i++){
+			if(pid==tabs[i]){
+				document.getElementById(tabs[i]).style.display="block";
+				document.getElementById(lis[i]).className="color";
+			}else{
+				document.getElementById(tabs[i]).style.display="none";
+				document.getElementById(lis[i]).className="";
+			}
+		}
+	}
+	var i=0;
+	window.onload=function aa(){		
+		var lis=["li1","li2","li3","li4"];
+		var tabs=["tab1","tab2","tab3","tab4"];
+		document.getElementById(tabs[i]).style.display="block";
+		document.getElementById(lis[i]).className="color";		
+		var a=i-1;
+		if(a==-1){
+			a=3;
+		}
+		document.getElementById(tabs[a]).style.display="none";
+		document.getElementById(lis[a]).className="";
+		i++;
+		if(i>=4){
+			i=0;
+			
+		}
+		setTimeout(aa,5000)
+	}
+</script>
+
+
+
+
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/bootstrap.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#menu").click(function(){
+			$(".clicks").animate({right:'0px'});
+			$(".bg").show();
+		})
+		$(".bg").click(function(){
+			$(".clicks").animate({right:'-200px'});
+			$(".bg").hide();
+		})
+		$('#menu_btn').click(function(){
+			$(this).siblings('ul').slideToggle();
+		})
+	});	
+</script>
+</body>
+</html>
